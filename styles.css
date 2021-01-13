@@ -1,0 +1,255 @@
+
+.socialMediaFooter{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.socialMediaButtons {
+    width: 53px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+}
+.splash.display-none {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    width: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.bodyBackground {
+    background-image: url('./assets/bubbles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    background: rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    
+}
+.boxHeaderAndFooter {
+    background: rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    
+}
+.pageTitle{
+    height: 75px;
+    margin-top: 10px;
+}
+.introPageTitle{
+    height: 1000px;
+    padding-top: 450px;
+    margin-top: 10px;
+}
+.introH3top {
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.selfIntroText{
+    margin-top: 10px;
+    height: 300px;
+}
+
+.selfIntroPic{
+    margin-top: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+.selfIntroTextOuter{
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow-y: visible;
+}
+.selfIntroTextInner{
+    background-color: lightgray;
+    height: 280px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.selfIntroSkillChartOuter{
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow-y: visible;
+}
+.selfIntroSkillChartInner{
+    background-color: lightgray;
+    height: 280px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow-y: visible;
+}
+
+.services{
+    margin-top: 10px;
+    height: 300px;
+}
+.servicesBoxes{
+    margin-top: 10px;
+    height: 200px;
+}
+.projects{
+    background-color: lightgray;
+    margin-top: 10px;
+    height: 260px;
+}
+
+.portfolioJustBox{
+    margin-top: 10px;
+    height: 350px;
+    overflow-y: scroll;
+}
+.portfolioPage{
+    margin-top: 10px;
+    height: 700px;
+    overflow-y: scroll;
+}
+.portfolioImages {
+    display: block;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.skillsImage {
+    display: block;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%
+}
+
+.headings {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.topHeading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+.introPageHeading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.paragraphs{
+    text-align: center;
+}
+.fonts {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbarDefaults{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navBar-Buttons {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgray;
+    color: black;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+}
+.navBar-Buttons:hover {
+    opacity: 1;
+    border: 1px solid black;
+    background-color: darkgray;
+    color: white;
+}
+
+.navbarWrapper{
+    height: 55px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+.introPage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.introAnchor {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.introH1{
+    margin-left: 50%;
+    padding: 0px;
+    text-align: center;
+}
+.container {
+    height: 1000px;
+}
