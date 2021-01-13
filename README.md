@@ -5,5 +5,6 @@ Portfolio is my portfolio written with HTML/CSS + Bootstrap. It includes contact
 Clone or copy directly from github.
 
 
-## Usage
-Open index.html in Chrome.
+## Usage - Deployed To Github Pages
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://pgrayson-efa.github.io/Portfolio/
+
